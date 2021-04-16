@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #f9e6ff;
+}
+
+h1 {
+  font-style: italic;
+  color: #e5cdb3;
+  text-align: center;
+  padding-right: 2em;
+  padding-left: 2em;
+  font-family: "Merienda One", cursive;
+}
+
+h2 {
+  margin-top: 2em;
+  text-align: center;
+  color: #b3b3b3;
+  font-family: "Kanit", sans-serif;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+
+.answer-choice img {
+  height: 10em;
+}
+
+.divs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divs2 {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+.button {
+  background-color: #e5cdb3; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #f9e6ff;
+  color: black;
+  border: 2px solid #e5cdb3;
+}
+
+.button1:hover {
+  background-color: #e5cdb3;
+  color: white;
+}
+
+.rcorners3 {
+  border-radius: 25px;
+  background: #ffffff;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+}

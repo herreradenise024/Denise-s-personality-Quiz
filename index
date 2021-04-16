@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Denise's Personality Quiz</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merienda+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Which Bedroom Pop Artist are you?</h1>
+
+    <h2>What do you eat for breakfast?</h2>
+    <div class="question divs">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fwaffles.jpg?v=1594247700122"
+          class="rcorners3"
+          height="300px"
+        />
+        <br />
+        <button id="q1a1" class="button button1">Waffles</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fpancakes.jpg?v=1594248408670"
+          class="rcorners3"
+          height="300px"
+          alt="pancakes"
+        />
+        <br />
+        <button id="q1a2" class="button button1">Pancakes</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fcereal2.jpg?v=1594251377223"
+          class="rcorners3"
+          height="300px"
+          alt="cereal"
+        />
+        <br />
+        <button id="q1a3" class="button button1">Cereal</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Feggbacon4.png?v=1594251591191"
+          class="rcorners3"
+          height="300px"
+          alt="Eggsandbacon"
+        />
+        <br />
+        <button id="q1a4" class="button button1">Eggs and bacon</button>
+      </div>
+    </div>
+    <h2>What do you do for fun?</h2>
+    <div class="question divs">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fnetflix2.png?v=1594251745560"
+          class="rcorners3"
+          height="300px"
+          alt="netflix"
+        />
+        <br />
+        <button id="q2a1" class="button button1">Netflix</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fgoingoutwfriends.jpg?v=1594249901695"
+          class="rcorners3"
+          height="300px"
+          alt="go out with friends"
+        />
+        <br />
+        <button id="q2a2" class="button button1">Go out with friends</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fshopping.jpg?v=1594249912802"
+          class="rcorners3"
+          height="300px"
+          alt="Go shooping"
+        />
+        <br />
+        <button id="q2a3" class="button button1">Go shopping</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fnap.jpg?v=1594249930786"
+          class="rcorners3"
+          height="300px"
+          alt="Take a nap"
+        />
+        <br />
+        <button id="q2a4" class="button button1">Take a nap</button>
+      </div>
+    </div>
+
+    <h2>What is your favorite movie genre?</h2>
+    <div class="question divs">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fhorror.jpg?v=1594249942891"
+          class="rcorners3"
+          height="300px"
+          alt="Horror"
+        />
+        <br />
+        <button id="q3a1" class="button button1">Horror</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fromantic.jpg?v=1594249954858"
+          class="rcorners3"
+          height="300px"
+          alt="Romantic"
+        />
+        <br />
+        <button id="q3a2" class="button button1">Romantic</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fcriminalminds2.jpg?v=1594319397512"
+          class="rcorners3"
+          height="300px"
+          alt="Drama"
+        />
+        <br />
+        <button id="q3a3" class="button button1">Drama</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Ffriends!.jpg?v=1594319038127"
+          class="rcorners3"
+          height="300px"
+          alt="comedy"
+        />
+        <br />
+        <button id="q3a4" class="button button1">Comedy</button>
+      </div>
+    </div>
+
+    <h2>What type of shoes would you wear?</h2>
+    <div class="question divs">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fconverse.jpg?v=1594249964912"
+          class="rcorners3"
+          height="300px"
+          alt="converse"
+        />
+        <br />
+        <button id="q4a1" class="button button1">Converse</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fwhitevans.jpg?v=1594316600368"
+          class="rcorners3"
+          height="300px"
+          alt="vans"
+        />
+        <br />
+        <button id="q4a2" class="button button1">Vans</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fairforce1.jpg?v=1594249988171"
+          class="rcorners3"
+          height="300px"
+          alt="air force 1's"
+        />
+        <br />
+        <button id="q4a3" class="button button1">Air Force 1's</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fcombatboots.jpg?v=1594252323128"
+          class="rcorners3"
+          height="300px"
+          alt=" combat boots"
+        />
+        <br />
+        <button id="q4a4" class="button button1">Combat Boots</button>
+      </div>
+    </div>
+
+    <h2>What is your favorite color?</h2>
+    <div class="question divs">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fpurple.jpg?v=1594250002057"
+          class="rcorners3"
+          height="300px"
+          alt="purple"
+        />
+        <br />
+        <button id="q5a1" class="button button1">Purple</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fyellow.jpg?v=1594250011216"
+          class="rcorners3"
+          height="300px"
+          alt=" yellow"
+        />
+        <br />
+        <button id="q5a2" class="button button1">Yellow</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fblue.jpg?v=1594250019167"
+          class="rcorners3"
+          height="300px"
+          alt=" blue"
+        />
+        <br />
+        <button id="q5a3" class="button button1">Blue</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fred.jpg?v=1594250029425"
+          class="rcorners3"
+          height="300px"
+          alt="red"
+        />
+        <br />
+        <button id="q5a4" class="button button1">Red</button>
+      </div>
+    </div>
+
+    <h2>Out of these activities which one do you prefer?</h2>
+    <div class="question divs">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Frollerskating.jpg?v=1594250041008"
+          class="rcorners3"
+          height="300px"
+          alt="roller skating"
+        />
+        <br />
+        <button id="q6a1" class="button button1">Roller Skating</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fskateboarding.jpg?v=1594250053961"
+          class="rcorners3"
+          height="300px"
+          alt="skateboarding"
+        />
+        <br />
+        <button id="q6a2" class="button button1">Skateboarding</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fpainting.jpg?v=1594251048120"
+          class="rcorners3"
+          height="300px"
+          alt="painting"
+        />
+        <br />
+        <button id="q6a3" class="button button1">Painting</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/9c1c9c6d-9f0e-4cb3-880c-24f412ddda95%2Fswimming.jpg?v=1594250064002"
+          class="rcorners3"
+          height="300px"
+          alt="swiming"
+        />
+        <br />
+        <button id="q6a4" class="button button1">Swimming</button>
+      </div>
+    </div>
+
+    <div class="result divs2">
+      <h2 id="result">Your result is...</h2>
+      
+    </div>
+  </body>
+</html>
